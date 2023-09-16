@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: max-content auto max-content;
+}
+
+body>* {
+    margin: 10px 30px;
+
+}
+
+#join-panel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#communication-panel {
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    column-gap: 10px;
+}
+
+#messages {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+input, label, button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: content-box;
+}
+
+button {
+    width: 75px;
+    background-color: #1565c0;
+    color: white;
+    border-color: #003c8f;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003c8f;
+    cursor: pointer;
+}
